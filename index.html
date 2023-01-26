@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pizza</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230125191512">
+    <!--<link rel="shortcut icon" href="favicon.ico">-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" data-scroll="100" data-scroll-show>
+    <div class="header__container">
+        <a href="" class="header__logo logo">
+            <img src="img/logo.svg" alt="logo">
+        </a>
+        <nav class="header__menu menu">
+            <div class="menu__body">
+                <ul class="menu__list">
+                    <li>
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__actions">
+            <a href="#" class="header__login btn gradient" data-da=".menu__list,479.98,first">Log in</a>
+            <a href="#" class="header__cart gradient">
+                <img src="img/icons/cart.svg" alt="cart">
+            </a>
+            <button type="button" class="icon-menu"><span></span></button>
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <section class="promo">
+                <div class="promo__container">
+                    <div class="promo__decor promo__decor_1"></div>
+                    <div class="promo__decor promo__decor_2"></div>
+                    <div class="promo__decor promo__decor_3"></div>
+                    <div class="promo__content">
+                        <div class="promo__info info-promo">
+                            <h1 class="info-promo__title title">
+                                <span class="info-promo__title-1">The Fastest</span>
+                                <span class="info-promo__title-2">Pizza</span>
+                                <span class="info-promo__title-3">Delivery</span>
+                            </h1>
+                            <p class="info-promo__text">
+                                We will deliver juicy pizza for your family in 30 minutes, if the courier is late -
+                                <span>pizza is free!</span>
+                            </p>
+                            <div class="info-promo__process">
+                                <p>Cooking process:</p>
+                                <button type="button" data-popup="#popup-youtube" data-popup-youtube="_jOMIdietUQ"
+                                    class="info-promo__button button-promo">
+                                    <div class="button-promo__img _ibg">
+                                        <picture><source srcset="img/promo/pizza-small.webp" type="image/webp"><img src="img/promo/pizza-small.jpg" alt="pizza"></picture>
+                                    </div>
+                                    <span></span>
+                                </button>
+                            </div>
+                            <div class="info-promo__actions" data-da=".info-promo,991.98,2">
+                                <a href="#" class="info-promo__order btn gradient">To order</a>
+                                <a href="#" class="info-promo__menu-btn"><span>Pizza-Menu</span></a>
+                            </div>
+                        </div>
+                        <div class="promo__visual visual-promo">
+                            <div class="visual-promo__body">
+                                <div class="visual-promo__img _ibg">
+                                    <picture><source srcset="img/promo/pizza.webp" type="image/webp"><img src="img/promo/pizza.jpg" alt="pizza"></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="menu-section">
+                <div class="menu-section__container">
+                    <h2 class="menu-section__title title">Menu</h2>
+                    <div class="menu-section__categories">
+                        <a href="#" class="menu-section__categoreie categorie-menu _active">Show All</a>
+                        <a href=" #" class="menu-section__categoreie categorie-menu">Meat</a>
+                        <a href="#" class="menu-section__categoreie categorie-menu">Vegetarian</a>
+                        <a href="#" class="menu-section__categoreie categorie-menu">Sea products</a>
+                        <a href="#" class="menu-section__categoreie categorie-menu">Mushroom</a>
+                    </div>
+                    <div class="menu-section__items">
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/01.webp" type="image/webp"><img src="img/menu/catolog/01.png" alt="Italian pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Italian</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">8,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/02.webp" type="image/webp"><img src="img/menu/catolog/02.png" alt="Venecia pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Venecia</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">7,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/03.webp" type="image/webp"><img src="img/menu/catolog/03.png" alt="Meat pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Meat</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">9,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/04.webp" type="image/webp"><img src="img/menu/catolog/04.png" alt="Cheese pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Cheese</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">8,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-section__banner">
+                        <div class="menu-section__img _ibg">
+                            <picture><source srcset="img/menu/background.webp" type="image/webp"><img src="img/menu/background.jpg" alt=""></picture>
+                        </div>
+                        <p class="menu-section__info">MOST POPULAR PIZZA</p>
+                    </div>
+                    <div class="menu-section__items menu-section__items_2">
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/05.webp" type="image/webp"><img src="img/menu/catolog/05.png" alt="Argentina pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Argentina</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">8,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/06.webp" type="image/webp"><img src="img/menu/catolog/06.png" alt="Gribnaya pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Gribnaya</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">7,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/07.webp" type="image/webp"><img src="img/menu/catolog/07.png" alt="Tomato pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Tomato</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">9,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-section__item item-menu">
+                            <div class="item-menu__body">
+                                <div class="item-menu__img _ibg">
+                                    <picture><source srcset="img/menu/catolog/08.webp" type="image/webp"><img src="img/menu/catolog/08.png" alt="Italian x2 pizza"></picture>
+                                </div>
+                                <h3 class="item-menu__title">Italian x2</h3>
+                                <p class="item-menu__text">
+                                    Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+                                </p>
+                                <div class="item-menu__actions">
+                                    <div class="item-menu__sizes sizes-menu">
+                                        <button type="button" class="sizes-menu__item">22</button>
+                                        <button type="button" class="sizes-menu__item _active gradient">28</button>
+                                        <button type="button" class="sizes-menu__item">33</button>
+                                    </div>
+                                    <button class="item-menu__btn btn-item-menu">
+                                        <span class="btn-item-menu__body">
+                                            <span class="btn-item-menu__text">+ Ingridients</span>
+                                        </span>
+                                    </button>
+                                    <div class="item-menu__sum">
+                                        <p class="item-menu__price">8,35</p>
+                                        <div class="item-menu__count count-menu">
+                                            <button class="count-menu__btn">-</button>
+                                            <span class="count-menu__quantity">1</span>
+                                            <button class="count-menu__btn gradient">+</button>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item-menu__order btn gradient">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="events">
+                <div class="events__container">
+                    <div class="events__decor-1"></div>
+                    <div class="events__decor-2"></div>
+                    <div class="events__decor-3"></div>
+                    <div class="events__items">
+                        <a href="#" class="events__item item-events item-events_3">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/01.webp" type="image/webp"><img src="img/events/01.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">HOW WE <br> COOKING</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <a href="#" class="events__item item-events item-events_3">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/02.webp" type="image/webp"><img src="img/events/02.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">OUR BLOG</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <div class="events__info item-events_3">
+                            <h2 class="events__title title">Events</h2>
+                            <p class=" events__text">
+                                There are regular events in our pizzeria that will allow you to eat delicious food
+                                for a lower price!
+                            </p>
+                        </div>
+                        <a href="#" class="events__item item-events item-events_2">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/03.webp" type="image/webp"><img src="img/events/03.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">TWO PIZZA <br> FOR 1 PRICE</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <a href="#" class="events__item item-events item-events_2">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/04.webp" type="image/webp"><img src="img/events/04.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">KITCHEN <br> TOUR</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <a href="#" class="events__item item-events item-events_3">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/05.webp" type="image/webp"><img src="img/events/05.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">FREE COFFEE <br> FOR 3 PIZZA</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <a href="#" class="events__item item-events item-events_3">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/06.webp" type="image/webp"><img src="img/events/06.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">OUR <br> INSTAGRAM</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                        <a href="#" class="events__item item-events item-events_3">
+                            <div class="item-events__back _ibg">
+                                <picture><source srcset="img/events/07.webp" type="image/webp"><img src="img/events/07.png" alt=""></picture>
+                            </div>
+                            <div class="item-events__body">
+                                <h3 class="item-events__title">WHERE ARE <br> YOU CHOOSE <br> US?</h3>
+                                <div class="item-events__btn btn gradient">More</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container">
+                    <div class="about__body">
+                        <div class="about__content">
+                            <h2 class="about__title title">About us</h2>
+                            <p class="about__text">
+                                In just a couple of years, we have opened 6 outlets in different cities: Kazan,
+                                Chelyabinsk, Ufa, Samara, Izhevsk, and in the future we plan to develop the network in
+                                other major cities of Russia.
+                            </p>
+                            <picture><source srcset="img/about/pizza-group.webp" type="image/webp"><img class="about__img" src="img/about/pizza-group.png" alt="pizzas"></picture>
+                            <p class="about__text">
+                                The kitchen of each point is at least: 400-500 sq. m. meters, hundreds of employees,
+                                smoothly performing work in order to receive / prepare / form / deliver customer orders
+                                on time.
+                            </p>
+                        </div>
+                        <div class="about__view view-about">
+                            <div class="view-about__body">
+                                <div class="view-about__img _ibg">
+                                    <picture><source srcset="img/about/pizza.webp" type="image/webp"><img src="img/about/pizza.png" alt="Pizza"></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__items">
+                <a href="" class="footer__logo logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+                <div class="footer__item item-footer">
+                    <div class="item-footer__title">Home</div>
+                    <div class="item-footer__body">
+                        <a href="" class="item-footer__link">To Order</a>
+                        <a href="" class="item-footer__link">About us</a>
+                        <a href="" class="item-footer__link">Events</a>
+                        <a href="" class="item-footer__link">Menu</a>
+                    </div>
+                </div>
+                <div class="footer__item item-footer">
+                    <div class="item-footer__title">Events</div>
+                    <div class="item-footer__body">
+                        <a href="" class="item-footer__link">3 Pizza 1 Free Coffee</a>
+                        <a href="" class="item-footer__link">2 Pizza for 1 Price</a>
+                        <a href="" class="item-footer__link">Kitchen Tour</a>
+                    </div>
+                </div>
+                <div class="footer__item item-footer">
+                    <div class="item-footer__title">Menu</div>
+                    <div class="item-footer__body">
+                        <a href="" class="item-footer__link">Show All</a>
+                        <a href="" class="item-footer__link">Seaproducts</a>
+                        <a href="" class="item-footer__link">Vegan</a>
+                        <a href="" class="item-footer__link">Meat</a>
+                    </div>
+                </div>
+                <div class="footer__item item-footer">
+                    <div class="item-footer__title">About Us</div>
+                    <div class="item-footer__body">
+                        <a href="" class="item-footer__link">Our History</a>
+                        <a href="" class="item-footer__link">Why We?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="tel:+79373335533" class="footer__phone">+7 (937) 333-55-33</a>
+            <div class="footer__socials">
+                <a href="" class="footer__social">
+                    <img src="img/icons/instagram.svg" width="24" height="24" alt="">
+                </a>
+                <a href="" class="footer__social">
+                    <img src="img/icons/twitter.svg" width="32" height="31" alt="">
+                </a>
+                <a href="" class="footer__social">
+                    <img src="img/icons/facebook.svg" width="25" height="25" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <div id="popup-youtube" aria-hidden="true" class="popup">
+    <div class="popup__wrapper">
+        <div class="popup__content">
+            <button data-close type="button" class="popup__close"></button>
+            <div class="popup__video" data-popup-youtube-place>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/app.min.js?_v=20230125191512"></script>
+</body>
+
+</html>
